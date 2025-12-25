@@ -1,6 +1,5 @@
-# cook your dish here
 
-from __future__ import annotations  # Добавь в самом начале файла
+from __future__ import annotations
 from datetime import datetime
 from abc import ABC, abstractmethod
 from typing import List, Optional, Dict
@@ -1918,4 +1917,5 @@ if __name__ == "__main__":
     # Генерируем расширенный отчет
     enhanced_company.generate_advanced_report()
     
+
     print("\nВсе паттерны успешно интегрированы в систему!")
