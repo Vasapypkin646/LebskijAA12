@@ -22,28 +22,32 @@ lab0101/
 │ ├── tailwind.config.js   # Конфигурация Tailwind
 │ ├── vite.config.ts       # Конфигурация Vite
 │ └── tsconfig.json        # Конфигурация TypeScript
-└── portfolio-site/
-  ├── app/
-  │   ├── layout.tsx
-  │   ├── page.tsx
-  │   ├── about/
-  │   │   └── page.tsx
-  │   ├── blog/
-  │   │   ├── page.tsx
-  │   │   ├── data.ts
-  │   │   └── [slug]/
-  │   │       ├── page.tsx
-  │   │       └── not-found.tsx
-  │   ├── projects/
-  │   │   └── page.tsx
-  │   └── components/
-  │       └── ProjectCard.tsx
-  ├── public/
-  ├── package.json
-  ├── tailwind.config.js
-  ├── tsconfig.json
-  └── task/
-      └── lab0102-Знакомство с Next.js.md
+├── portfolio-site/
+│ ├── app/
+│ │   ├── layout.tsx
+│ │   ├── page.tsx
+│ │   ├── about/
+│ │   │   └── page.tsx
+│ │   ├── blog/
+│ │   │   ├── page.tsx
+│ │   │   ├── data.ts
+│ │   │   └── [slug]/
+│ │   │       ├── page.tsx
+│ │   │       └── not-found.tsx
+│ │   ├── projects/
+│ │   │   └── page.tsx
+│ │   └── components/
+│ │       └── ProjectCard.tsx
+│ ├── public/
+│ ├── package.json
+│ ├── tailwind.config.js
+│ └── tsconfig.json
+└── task/
+     ├── lab0101-React-приложение с Vite.md
+     └── lab0102-Знакомство с Next.js.md
+
+     
+
 ```
 
 ## Часть 1. React-приложение с Vite
