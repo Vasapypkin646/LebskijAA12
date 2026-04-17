@@ -19,7 +19,7 @@
 
 ### 2.1. Запуск Bandit
 
-^^^bash
+```bash
 # Установка Bandit
 pip install bandit
 
@@ -28,7 +28,7 @@ bandit app.py -f html -o bandit_report.html
 
 # Запуск с детальным выводом в консоль
 bandit app.py -r -f txt
-^^^
+```
 
 ### 2.2. Результаты первоначального анализа (ДО исправлений)
 
