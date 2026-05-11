@@ -94,7 +94,7 @@ self.aggregated_data.to_sql('sales_aggregated', engine, if_exists='replace', ind
 
 3. Доля категорий в общей выручке (pie chart)
 
-!["Доля категорий в общей выручке (pie chart)"](./lab6_etl/plots/piechart).png)
+!["Доля категорий в общей выручке (pie chart)"](./lab6_etl/plots/piechart.png)
 
 Графики сохранены в папку plots/
 
