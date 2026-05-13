@@ -119,7 +119,7 @@ db.orders.insertMany([
 db.orders.find().pretty()
 ```
 
-[структура заказа](./img/2.jpg)
+![структура заказа](./img/2.jpg)
 
 
 ## 4. CRUD-ОПЕРАЦИИ
@@ -197,7 +197,7 @@ db.orders.deleteMany({
 { _id: 3, user_id: 1, status: "pending", total_amount: 3500 }
 ```
 
-[](./img/5.jpg)
+![](./img/5.jpg)
 
 ### 4.2. UPDATE: Добавление скидки заказам дороже 80000
 
@@ -281,7 +281,7 @@ db.orders.aggregate([
 
 Результат выполнения:
 
-[](/img/3.jpg)
+![](/img/3.jpg)
 
 
 ## 6. СРАВНИТЕЛЬНЫЕ ЗАПРОСЫ (аналог PostgreSQL)
@@ -325,7 +325,7 @@ db.orders.aggregate([
 { full_name: "Bob Johnson", total_spent: 4500 }
 ```
 
-[](/img/7.jpg)
+![](/img/7.jpg)
 
 
 ## 7. ОТВЕТЫ НА КОНТРОЛЬНЫЕ ВОПРОСЫ
@@ -448,5 +448,5 @@ $unwind — этап агрегации, который разворачивае
 PostgreSQL использует нормализацию с JOIN, что экономит место, но усложняет 
 запросы.
 
-[](./img/1.jpg)
+![](./img/1.jpg)
 
